@@ -3,8 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>QrCode Reactjs</h1>
+    <div className="container">
+      <input
+        className='input'
+        placeholder='Gigite seu link'
+      />
     </div>
   );
 }
